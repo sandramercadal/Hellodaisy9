@@ -132,7 +132,7 @@ p {
 }
 
 .containerbodyportfolio {
-  background-color: #ccccea;
+  background-color: whitesmoke;
 }
 .footer-container {
   background-color: #eae3e3;
@@ -154,6 +154,7 @@ p {
 
 .img-container {
   background-color: #eae3e3;
+  border-radius: 8px;
   padding: 30px 20px;
 }
 
