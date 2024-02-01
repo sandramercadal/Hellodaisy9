@@ -1,0 +1,162 @@
+.typewriter h2 {
+  color: purple;
+  padding-top: 1.5em;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: 0.15em solid #eae3e3;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.32em;
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 30px;
+  font-family: barlow;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  font-family: barlow;
+}
+
+h3 {
+  text-align: center;
+  font-size: 80px;
+  font-family: barlow;
+}
+h5 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  font-family: poppins;
+}
+
+p {
+  color: black;
+  text-align: left;
+}
+
+.homepage-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-family: barlow;
+}
+
+.homepage-links a {
+  margin: 23px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-family: poppins;
+}
+
+.contact-me {
+  border: 1px solid gray;
+  background-color: #eae3e3;
+  font-family: lobster;
+  color: purple;
+}
+
+.about-me {
+  border: 1px solid black;
+  color: purple;
+}
+
+.applaunch-link {
+  border: 1px solid purple;
+  background-color: purple;
+  font-family: barlow;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.img-md {
+  max-width: 85%;
+}
+
+.navbar-colour {
+  background-color: #eae3e3;
+}
+.navbar {
+  max-height: 40px;
+}
+
+.photo {
+  display: flex;
+  padding: 2px;
+  border-radius: 70%;
+  background-color: #efefef;
+}
+
+.homepage-container {
+  background-color: #ccccea;
+  max-height: 600px;
+}
+.containerbody {
+  background-color: #eae3e3;
+}
+
+.containerbodyportfolio {
+  background-color: #ccccea;
+}
+.footer-container {
+  background-color: #eae3e3;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.img-md {
+  max-width: 75%;
+}
+
+.img-container {
+  background-color: #eae3e3;
+  padding: 30px 20px;
+}
+
+.sandranav-item {
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
