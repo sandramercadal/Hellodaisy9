@@ -63,6 +63,7 @@ h5 {
 p {
   color: black;
   text-align: left;
+  font-size: 18px;
 }
 
 .homepage-links {
@@ -159,4 +160,8 @@ p {
 .sandranav-item {
   font-size: 17px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-paragraphs {
+  background-color: coral;
 }
