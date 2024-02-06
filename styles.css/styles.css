@@ -50,12 +50,12 @@ h4 {
 
 h3 {
   text-align: center;
-  font-size: 80px;
+  font-size: 60px;
   font-family: barlow;
 }
 h5 {
   color: black;
-  text-align: center;
+  text-align: left;
   font-size: 40px;
   font-family: poppins;
 }
@@ -125,7 +125,7 @@ p {
 
 .homepage-container {
   background-color: #ccccea;
-  max-height: 600px;
+  max-height: 650px;
 }
 .containerbody {
   background-color: #eae3e3;
@@ -163,6 +163,6 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.about-paragraphs {
+.about-container {
   background-color: purple;
 }
