@@ -1,13 +1,11 @@
-.typewriter h2 {
+.typewriter h1 {
   color: purple;
   padding-top: 1.5em;
-  font-family: monospace;
+  font-family: chakra petch;
   overflow: hidden;
-  border-right: 0.15em solid #eae3e3;
-  white-space: nowrap;
   margin: 0 auto;
-  letter-spacing: 0.32em;
-  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+  letter-spacing: 0.39em;
+  animation: typing 5.5s steps(30, end);
 }
 
 @keyframes typing {
@@ -34,24 +32,25 @@ h1 {
   text-align: center;
   margin-top: 60px;
   font-size: 30px;
-  font-family: barlow;
+  font-family: chakra petch;
 }
 
 h2 {
   text-align: center;
+  font-size: 34px;
+  font-family: chakra petch;
 }
-
 h4 {
   color: black;
   text-align: center;
   font-size: 25px;
-  font-family: barlow;
+  font-family: chakra petch;
 }
 
 h3 {
   text-align: center;
-  font-size: 60px;
-  font-family: barlow;
+  font-size: 74px;
+  font-family: chakra petch;
 }
 h5 {
   color: black;
@@ -64,6 +63,7 @@ p {
   color: black;
   text-align: left;
   font-size: 18px;
+  font-family: chakra petch;
 }
 
 .homepage-links {
@@ -164,5 +164,5 @@ p {
 }
 
 .about-container {
-  background-color: purple;
+  background-color: burlywood;
 }
