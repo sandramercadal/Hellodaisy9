@@ -8,7 +8,7 @@
   animation: typing 5.5s steps(30, end);
   text-align: center;
   margin-top: 60px;
-  font-size: 30px;
+  font-size: 40px;
 }
 @keyframes typing {
   from {
@@ -62,33 +62,6 @@ p {
 mark {
   text-align: center;
   background-color: #eae3e3;
-}
-.homepage-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-  margin-bottom: 50px;
-  font-family: barlow;
-}
-
-.homepage-links a {
-  margin: 23px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  font-family: poppins;
-}
-
-.contact-me {
-  border: 1px solid gray;
-  background-color: #eae3e3;
-  font-family: lobster;
-  color: purple;
-}
-
-.about-me {
-  border: 1px solid black;
-  color: purple;
 }
 
 .applaunch-link {
