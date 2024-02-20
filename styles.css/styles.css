@@ -58,29 +58,36 @@ h4 {
 }
 
 h5 {
-  font-size: 55px;
+  font-size: 40px;
+  font-family: chakra petch;
 }
 
 p {
-  color: black;
-  text-align: left;
-  font-size: 18px;
-  font-family: chakra petch;
 }
 mark {
   text-align: center;
   background-color: #eae3e3;
 }
 
+.portfoliointro {
+  text-align: center;
+  font-family: poppins;
+  font-size: 27px;
+  margin-top: 20px;
+}
+
+p2 {
+  font-family: poppins;
+}
 .applaunch-link {
-  border: 1px solid purple;
-  background-color: purple;
-  font-family: barlow;
-  margin: 20px;
+  border: 1px dotted black;
+  background-color: #eae3e3;
+  font-family: poppins;
+  margin: 5px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 10px 7.5px;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .img-md {
