@@ -1,5 +1,5 @@
 .typewriter h1 {
-  color: purple;
+  color: #adaec6;
   padding-top: 25px;
   font-family: chakra petch;
   overflow: hidden;
@@ -31,13 +31,13 @@
 
 h2 {
   text-align: center;
-  font-size: 15px;
+  font-size: 16px;
   font-family: chakra petch;
 }
 h4 {
   color: black;
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
   font-family: chakra petch;
 }
 
@@ -46,13 +46,10 @@ h3 {
   font-size: 74px;
   font-family: chakra petch;
 }
-h5 {
-  color: black;
-  text-align: left;
-  font-size: 40px;
-  font-family: poppins;
-}
 
+h5 {
+  font-size: 28px;
+}
 p {
   color: black;
   text-align: left;
@@ -106,8 +103,12 @@ mark {
 }
 .footer-container {
   background-color: #eae3e3;
+  font-family: chakra petch;
+  text-align: center;
 }
-
+.footerwords {
+  font-size: 14px;
+}
 .overlay-text {
   position: absolute;
   top: 50%;
