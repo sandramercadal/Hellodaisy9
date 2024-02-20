@@ -29,9 +29,25 @@
   }
 }
 
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
 h2 {
   text-align: center;
   font-size: 16px;
+  font-family: chakra petch;
+}
+
+h3 {
+  text-align: center;
+  font-size: 74px;
   font-family: chakra petch;
 }
 h4 {
@@ -41,15 +57,10 @@ h4 {
   font-family: chakra petch;
 }
 
-h3 {
-  text-align: center;
-  font-size: 74px;
-  font-family: chakra petch;
+h5 {
+  font-size: 55px;
 }
 
-h5 {
-  font-size: 28px;
-}
 p {
   color: black;
   text-align: left;
@@ -101,22 +112,18 @@ mark {
 .containerbodyportfolio {
   background-color: whitesmoke;
 }
+
 .footer-container {
   background-color: #eae3e3;
   font-family: chakra petch;
   text-align: center;
+  margin-top: 3.5px;
+  color: black;
 }
 .footerwords {
-  font-size: 14px;
-}
-.overlay-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  font-size: 13px;
+  margin-top: 5px;
   color: black;
-  font-size: 20px;
-  text-align: center;
 }
 
 .img-md {
@@ -136,4 +143,8 @@ mark {
 
 .about-container {
   background-color: burlywood;
+}
+
+a {
+  color: black;
 }
