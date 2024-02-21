@@ -91,6 +91,7 @@ p {
 mark {
   text-align: center;
   background: var(--primary-color);
+  border-radius: 4px;
 }
 
 .portfoliointro {
@@ -143,7 +144,7 @@ p2 {
 }
 
 .about-container {
-  background-color: burlywood;
+  background: var(--secondary-color);
 }
 
 a {
