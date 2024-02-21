@@ -117,6 +117,7 @@ p2 {
 
 .img-md {
   max-width: 85%;
+  border: solid whitesmoke;
 }
 .img-container {
   background: var(--primary-color);
@@ -144,7 +145,25 @@ p2 {
 }
 
 .about-container {
-  background: var(--secondary-color);
+  text-align: left;
+  padding: 10px 10px;
+}
+
+.about-section-content {
+  margin: 5px;
+}
+
+.about-section-content h1 {
+  font-size: 44px;
+}
+
+.about-section-content h2 {
+  font-size: 18px;
+}
+
+.about-pic {
+  padding: 20px 20px;
+  border-radius: 18px;
 }
 
 a {
