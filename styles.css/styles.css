@@ -138,6 +138,21 @@ p2 {
   margin-top: 3.5px;
   color: black;
 }
+
+.footer-links a {
+  background: var(--secondary-color);
+  color: black;
+  font-size: 19px;
+  margin: 0 7px;
+  border-radius: 65%;
+  transition: all 200ms ease-in-out;
+}
+
+.footer-links a:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
 .footerwords {
   font-size: 13px;
   margin-top: 5px;
