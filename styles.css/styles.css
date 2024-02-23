@@ -1,6 +1,6 @@
 :root {
   --primary-color: #eae3e3;
-  --secondary-color: whitesmoke;
+  --secondary-color: #ccccea;
 }
 
 .typewriter h1 {
@@ -195,4 +195,17 @@ p2 {
 
 a {
   color: black;
+}
+
+.certification-div {
+  background-color: lightpink;
+  padding: 50px 100px;
+  margin: 30px 0 0;
+}
+
+.certificate-icon {
+  width: 70px;
+}
+
+.certification-div {
 }
