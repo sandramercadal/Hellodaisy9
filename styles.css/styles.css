@@ -1,6 +1,6 @@
 :root {
   --primary-color: #eae3e3;
-  --secondary-color: #ccccea;
+  --secondary-color: whitesmoke;
 }
 
 .typewriter h1 {
@@ -13,7 +13,7 @@
   animation: typing 5.5s steps(30, end);
   text-align: center;
   margin-top: 60px;
-  font-size: 40px;
+  font-size: 43px;
 }
 @keyframes typing {
   from {
@@ -166,7 +166,7 @@ p2 {
 
 .about-container {
   text-align: left;
-  padding: 10px 10px;
+  padding: 15px 15px 15px 15px;
 }
 
 .about-section-content {
