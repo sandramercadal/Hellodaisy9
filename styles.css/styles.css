@@ -97,7 +97,7 @@ mark {
 .portfoliointro {
   text-align: center;
   font-family: poppins;
-  font-size: 27px;
+  font-size: 30px;
   margin-top: 20px;
 }
 
@@ -142,8 +142,8 @@ p2 {
 .footer-links a {
   background: var(--secondary-color);
   color: black;
-  font-size: 18.5px;
   margin: 0 7px;
+  font-size: 18.5px;
   border-radius: 65%;
   transition: all 200ms ease-in-out;
 }
@@ -170,20 +170,27 @@ p2 {
 }
 
 .about-section-content {
-  margin: 5px;
-}
-
-.about-section-content h1 {
-  font-size: 44px;
-}
-
-.about-section-content h2 {
+  margin: 15px;
+  font-family: barlow;
   font-size: 18px;
 }
 
-.about-pic {
-  padding: 20px 20px;
+.about-section-content h1 {
+  font-size: 35px;
+  font-family: barlow;
+}
+
+.about-section-content h2 {
+  font-size: 24px;
+  text-align: left;
+  font-family: barlow;
+}
+
+.sandra-pic {
+  padding: 10px 10px;
   border-radius: 18px;
+  border: solid whitesmoke;
+  margin: 15px;
 }
 
 a {
