@@ -131,6 +131,40 @@ p2 {
   background-color: whitesmoke;
 }
 
+@media (max-width: 576px) {
+  .responsive-pics {
+    display: none;
+  }
+}
+
+.button-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-family: barlow;
+}
+
+.button-links a {
+  margin: 23px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-family: poppins;
+}
+
+.contact-me {
+  border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  font-family: lobster;
+  color: var(--primary-color);
+}
+
+.about-me {
+  border: 1px solid var(--primary-color);
+  color: var(--secondary-color);
+}
+
 .footer-container {
   background: var(--primary-color);
   font-family: chakra petch;
