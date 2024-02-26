@@ -105,7 +105,7 @@ p2 {
   font-family: poppins;
 }
 .applaunch-link {
-  border: 1px solid white;
+  border: 2px solid white;
   background: var(--primary-color);
   font-family: poppins;
   margin: 5px;
@@ -139,6 +139,13 @@ p2 {
   color: black;
 }
 
+.footertwo-container {
+  background: var(--secondary-color);
+  font-family: chakra petch;
+  text-align: center;
+  margin-top: 3.5px;
+  color: black;
+}
 .footer-links a:hover {
   color: lightseagreen;
 }
@@ -178,7 +185,7 @@ p2 {
 .sandra-pic {
   padding: 10px 10px;
   border-radius: 30px 0px 30px 0px;
-  border: solid whitesmoke;
+  border: 1px solid #83afa6;
   margin: 15px;
 }
 
@@ -193,7 +200,7 @@ a {
 }
 
 .certificate-icon {
-  width: 200px;
+  width: 220px;
 }
 
 .another-section {
@@ -205,4 +212,8 @@ a {
   padding: 8px;
   background-color: lightsalmon;
   margin: 20px 20px 20px 20px;
+}
+
+.another-sectiontwo {
+  background-color: #f3eaa0;
 }
