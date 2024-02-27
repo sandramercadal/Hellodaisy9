@@ -142,9 +142,8 @@ p2 {
   margin-top: 40px;
   justify-content: center;
   margin-bottom: 50px;
-  font-family: barlow;
+  font-family: chakra petch;
 }
-
 .button-links a {
   margin: 23px;
   border-radius: 4px;
@@ -154,15 +153,16 @@ p2 {
 }
 
 .contact-me {
-  border: 1px solid var(--secondary-color);
+  border: 1px solid var(--primary-color);
   background-color: var(--secondary-color);
-  font-family: lobster;
+  font-family: chakra petch;
   color: var(--primary-color);
 }
 
 .about-me {
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .footer-container {
