@@ -116,13 +116,14 @@ p2 {
 }
 
 .img-md {
-  max-width: 85%;
+  max-width: 79%;
   border: solid whitesmoke;
+  margin: 15px 50px;
 }
 .img-container {
   background: var(--primary-color);
-  border-radius: 18px;
-  padding: 30px 20px;
+  border-radius: 8px;
+  padding: 5px 10px;
   border: solid;
   color: white;
 }
