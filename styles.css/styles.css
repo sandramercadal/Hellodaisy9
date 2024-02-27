@@ -219,7 +219,7 @@ p2 {
 .sandra-pic {
   padding: 10px 10px;
   border-radius: 30px 0px 30px 0px;
-  border: 1px solid #83afa6;
+  border: 3px double #83afa6;
   margin: 15px;
 }
 
@@ -250,4 +250,11 @@ a {
 
 .another-sectiontwo {
   background-color: #f3eaa0;
+}
+
+.sidecontainer {
+}
+
+@media (min-width: 900px) .sidecontainer {
+  display: none;
 }
