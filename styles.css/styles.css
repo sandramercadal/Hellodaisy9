@@ -258,7 +258,7 @@ a {
 @media (max-width: 900px) {
   h3 {
     font-size: 40px;
-    line-height: 1;
+    line-height: 2;
   }
 }
 
@@ -272,5 +272,25 @@ a {
 @media (max-width: 900px) {
   .typewriter h1 {
     font-size: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .portfoliointro {
+    font-size: 26px;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 900px) {
+  h5 {
+    font-size: 30px;
+    line-height: 1;
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .main {
+    text-align: center;
   }
 }
