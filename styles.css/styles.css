@@ -60,7 +60,7 @@
   max-height: 680px;
 }
 .containerbody {
-  background: var(--primary-color);
+  background: var(--primary-);
 }
 
 h2 {
@@ -277,13 +277,13 @@ a {
 
 @media (max-width: 900px) {
   .portfoliointro {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 1.5;
   }
 }
 @media (max-width: 900px) {
   h5 {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 1;
     text-align: center;
   }
