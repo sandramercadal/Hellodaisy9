@@ -255,6 +255,22 @@ a {
 .sidecontainer {
 }
 
-@media (min-width: 900px) .sidecontainer {
-  display: none;
+@media (max-width: 900px) {
+  h3 {
+    font-size: 40px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  h4 {
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .typewriter h1 {
+    font-size: 30px;
+  }
 }
