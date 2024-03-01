@@ -1,10 +1,11 @@
 :root {
   --primary-color: #eae3e3;
   --secondary-color: #749281;
+  --accent-color: whitesmoke;
 }
 
 .typewriter h4 {
-  color: #eae3e3;
+  color: var(--primary-color);
   padding-top: 25px;
   font-family: chakra petch;
   overflow: hidden;
@@ -43,26 +44,6 @@
   font-size: 20px;
   text-align: center;
 }
-.codebysandranav-item {
-  font-size: 17px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.navbar-colour {
-  background: var(--primary-color);
-}
-.navbar {
-  max-height: 57px;
-}
-
-.hero-homepage-container {
-  background: var(--secondary-color);
-  text-align: center;
-  padding: 130px 20px;
-}
-.containerbody {
-  background: var(--primary-);
-}
 
 h2 {
   text-align: center;
@@ -86,13 +67,32 @@ h5 {
   font-size: 40px;
   font-family: chakra petch;
 }
-
+p2 {
+  font-family: poppins;
+}
 p {
 }
 mark {
   text-align: center;
   background: var(--primary-color);
   border-radius: 4px;
+}
+.codebysandranav-item {
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-colour {
+  background: var(--primary-color);
+}
+.navbar {
+  max-height: 57px;
+}
+
+.hero-homepage-container {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 130px 20px;
 }
 
 .portfoliointro {
@@ -101,12 +101,24 @@ mark {
   font-size: 30px;
   margin-top: 20px;
 }
-.Aboutme-intro {
-  background-color: #58727f;
+.containerbodyportfolio {
+  background-color: var(--accent-color);
 }
-p2 {
-  font-family: poppins;
+
+.img-md {
+  max-width: 79%;
+  border: solid var(--accent-color);
+  margin: 15px 50px;
 }
+
+.img-container {
+  background: var(--primary-color);
+  border-radius: 8px;
+  padding: 5px 10px;
+  border: solid;
+  color: white;
+}
+
 .applaunch-link {
   border: 2px solid white;
   background: var(--primary-color);
@@ -116,29 +128,6 @@ p2 {
   padding: 10px 7.5px;
   text-decoration: none;
   color: black;
-}
-
-.img-md {
-  max-width: 79%;
-  border: solid whitesmoke;
-  margin: 15px 50px;
-}
-.img-container {
-  background: var(--primary-color);
-  border-radius: 8px;
-  padding: 5px 10px;
-  border: solid;
-  color: white;
-}
-
-.containerbodyportfolio {
-  background-color: whitesmoke;
-}
-
-@media (max-width: 576px) {
-  .responsive-pics {
-    display: none;
-  }
 }
 
 .button-links {
@@ -169,6 +158,10 @@ p2 {
   background-color: var(--primary-color);
 }
 
+.Aboutme-intro {
+  background-color: #58727f;
+}
+
 .footer-container {
   background: var(--primary-color);
   font-family: chakra petch;
@@ -196,12 +189,6 @@ p2 {
   font-size: 13px;
   margin-top: 5px;
   color: black;
-}
-.about-container {
-  text-align: left;
-  padding: 15px 15px 15px 15px;
-  background-color: whitesmoke;
-  max-width: 100%;
 }
 
 .about-section-content {
@@ -242,9 +229,6 @@ a {
   width: 220px;
 }
 
-.another-section {
-}
-
 .skills {
   text-align: center;
   font-size: 18px;
@@ -254,23 +238,17 @@ a {
 }
 
 .another-sectiontwo {
-  background-color: #f3eaa0;
+  background-color: var(--accent-color);
 }
 
+.another-section {
+  background-color: var(--primary-color);
+}
 .sidecontainer {
 }
-
 @media (max-width: 900px) {
-  h4 {
-    font-size: 40px;
-    line-height: 2;
-  }
-}
-
-@media (max-width: 900px) {
-  h3 {
-    font-size: 20px;
-    line-height: 1;
+  .typewriter h4 {
+    font-size: 30px;
   }
 }
 
@@ -282,8 +260,15 @@ a {
   }
 }
 @media (max-width: 900px) {
-  .typewriter h4 {
-    font-size: 30px;
+  h3 {
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+@media (max-width: 900px) {
+  h4 {
+    font-size: 40px;
+    line-height: 2;
   }
 }
 
