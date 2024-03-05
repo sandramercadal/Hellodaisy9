@@ -93,6 +93,7 @@ mark {
   background: var(--secondary-color);
   text-align: center;
   padding: 130px 50px;
+  min-height: calc(100vh - 103.5px);
 }
 
 .portfoliointro {
@@ -259,12 +260,12 @@ a {
 .lets-connect h2 {
   text-align: center;
   color: var(--secondary-color);
-  font-size: 19px;
+  font-size: 20px;
 }
 
 .lets-connect a {
   text-align: center;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 @media (max-width: 900px) {
