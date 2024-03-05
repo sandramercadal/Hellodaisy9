@@ -246,6 +246,27 @@ a {
 }
 .sidecontainer {
 }
+.lets-connect {
+  background-color: var(--accent-color);
+  font-family: chakra petch;
+  text-align: center;
+}
+.lets-connect h1 {
+  text-align: center;
+  font-family: chakra petch;
+  color: var(--secondary-color);
+}
+.lets-connect h2 {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 19px;
+}
+
+.lets-connect a {
+  text-align: center;
+  font-size: 14px;
+}
+
 @media (max-width: 900px) {
   .typewriter h4 {
     font-size: 30px;
