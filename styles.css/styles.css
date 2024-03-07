@@ -208,6 +208,24 @@ mark {
   font-family: barlow;
 }
 
+.fun-facts {
+  font-family: chakra petch;
+  text-align: center;
+}
+.fun-facts h1 {
+  text-align: center;
+  font-family: chakra petch;
+  color: var(--secondary-color);
+  font-size: 40px;
+  line-height: 2;
+}
+.fun-facts h2 {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 20px;
+  line-height: 0.5;
+}
+
 .sandra-pic {
   padding: 10px 10px;
   border-radius: 30px 0px 30px 0px;
