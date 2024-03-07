@@ -174,7 +174,6 @@ mark {
   background: var(--secondary-color);
   font-family: "chakra petch";
   text-align: center;
-  margin-top: 3.5px;
   color: black;
 }
 .footer-links a:hover {
@@ -230,23 +229,6 @@ a {
   width: 220px;
 }
 
-.skills {
-  text-align: center;
-  font-size: 18px;
-  padding: 8px;
-  background-color: lightsalmon;
-  margin: 20px 20px 20px 20px;
-}
-
-.another-sectiontwo {
-  background-color: var(--accent-color);
-}
-
-.another-section {
-  background-color: var(--primary-color);
-}
-.sidecontainer {
-}
 .lets-connect {
   background-color: var(--accent-color);
   font-family: chakra petch;
