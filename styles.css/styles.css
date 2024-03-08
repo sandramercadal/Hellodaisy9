@@ -212,11 +212,11 @@ mark {
 }
 .place {
   color: var(--secondary-color);
-  font-family: charm;
-  font-size: 21px;
+  font-family: handlee;
+  font-size: 19px;
 }
 .fun-facts {
-  font-family: barlow;
+  font-family: poppins;
   text-align: left;
   padding: 0px 50px;
   font-size: 16px;
@@ -241,12 +241,20 @@ a {
 
 .certification-div {
   background-color: var(--secondary-color);
-  padding: 50px 100px;
+  padding: 30px 100px;
   margin: 5px 0 0;
+  font-family: chakra petch;
+  font-size: 18px;
+  text-align: center;
+}
+.certification-div h4 {
+  font-family: chakra petch;
+  font-size: 35px;
 }
 
 .certificate-icon {
   width: 220px;
+  font-size: 20px;
 }
 
 .lets-connect {
