@@ -203,12 +203,14 @@ mark {
 .about-section-content h1 {
   font-size: 40px;
   font-family: chakra petch;
+  color: var(--secondary-color);
 }
 
 .about-section-content h2 {
   font-size: 25px;
   text-align: left;
   font-family: chakra petch;
+  opacity: 0.8;
 }
 .place {
   color: var(--secondary-color);
