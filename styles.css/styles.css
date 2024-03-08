@@ -257,6 +257,9 @@ a {
   font-size: 20px;
 }
 
+.certification-div a {
+  font-size: 14px;
+}
 .lets-connect {
   background-color: var(--accent-color);
   font-family: chakra petch;
