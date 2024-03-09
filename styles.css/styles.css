@@ -252,7 +252,13 @@ a {
 }
 .certification-div h4 {
   font-family: chakra petch;
-  font-size: 35px;
+  font-size: 45px;
+}
+
+.btn-info {
+  background-color: var(--primary-color);
+  border: solid var(--accent-color);
+  padding: 5px;
 }
 
 .certificate-icon {
