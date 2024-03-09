@@ -321,24 +321,27 @@ a {
     font-size: 24px;
     line-height: 1.5;
   }
-
-  @media (max-width: 900px) {
-    .lets-connect h1 {
-      text-align: center;
-      font-size: 50px;
-    }
-
-    @media (max-width: 900px) {
-      .certification-div h4 {
-        line-height: 1;
-        font-size: 25px;
-        text-align: center;
-      }
-    }
-    @media (max-width: 900px) {
-      .certification-div p {
-        line-height: 1.2;
-    
-      }
-    }
-     
+}
+@media (max-width: 900px) {
+  .lets-connect h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+}
+@media (max-width: 900px) {
+  .certification-div h4 {
+    line-height: 1;
+    font-size: 26px;
+    text-align: center;
+  }
+}
+@media (max-width: 900px) {
+  .certification-div p {
+    line-height: 1.2;
+  }
+}
+@media (min-width: 900px) {
+  .img-md {
+    object-fit: contain;
+  }
+}
