@@ -247,12 +247,16 @@ a {
   padding: 30px 100px;
   margin: 5px 0 0;
   font-family: chakra petch;
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
+}
+.second-certification-div {
 }
 .certification-div h4 {
   font-family: chakra petch;
   font-size: 45px;
+}
+.certificatebutton {
 }
 
 .btn-info {
