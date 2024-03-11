@@ -194,6 +194,8 @@ mark {
   color: black;
 }
 
+.about-section {
+}
 .about-section-content {
   margin: ;
   font-family: poppins;
@@ -201,7 +203,6 @@ mark {
   padding: 0.2px 20px;
   line-height: 1.3;
 }
-
 .about-section-content h1 {
   font-size: 40px;
   font-family: chakra petch;
@@ -214,10 +215,10 @@ mark {
 }
 
 .about-section-content h2 {
-  font-size: 25px;
+  font-size: 28px;
   text-align: left;
   font-family: chakra petch;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .place {
