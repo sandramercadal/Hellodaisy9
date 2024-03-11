@@ -324,6 +324,11 @@ a {
 }
 
 @media (max-width: 900px) {
+  h5 {
+    font-size: 27px;
+  }
+}
+@media (max-width: 900px) {
   .main {
     text-align: center;
   }
@@ -331,8 +336,28 @@ a {
 
 @media (max-width: 900px) {
   .portfoliointro {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.5;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-section-content h2 {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-section-content h5 {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 900px) {
+  .sandra-pic {
+    padding: 15px 0px;
   }
 }
 @media (max-width: 900px) {
