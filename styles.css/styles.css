@@ -193,8 +193,8 @@ mark {
   margin-top: 5px;
   color: black;
 }
-
 .about-section {
+  padding: 3px 100px;
 }
 .about-section-content {
   margin: ;
@@ -211,11 +211,10 @@ mark {
 
 .about-section-content p1 {
   font-size: 15px;
-  line-height: 0.2;
 }
 
 .about-section-content h2 {
-  font-size: 28px;
+  font-size: 20px;
   text-align: left;
   font-family: chakra petch;
   opacity: 1;
@@ -225,11 +224,13 @@ mark {
   color: var(--secondary-color);
   font-family: handlee;
   font-size: 19px;
+  line-height: 7%;
 }
 
 .about-section-content h5 {
   font-size: 19px;
-  text-align: center;
+  text-align: left;
+  line-height: 7%;
 }
 
 .sandra-pic {
@@ -238,6 +239,7 @@ mark {
   margin: 5%;
   padding: 5%;
   border-radius: 30px 0px 30px 0px;
+  margin-top: 30%;
 }
 
 a {
@@ -386,5 +388,10 @@ a {
 @media (min-width: 900px) {
   .img-md {
     object-fit: contain;
+  }
+}
+
+@media (min-width: 900px) {
+  .sandra-pic {
   }
 }
