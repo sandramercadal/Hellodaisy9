@@ -337,7 +337,15 @@ a {
 
 @media (max-width: 900px) {
   h5 {
-    font-size: 27px;
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  p {
+    font-size: 14px;
+    text-align: center;
   }
 }
 @media (max-width: 900px) {
@@ -348,8 +356,14 @@ a {
 
 @media (max-width: 900px) {
   .portfoliointro {
-    font-size: 25px;
+    font-size: 21px;
     line-height: 1.5;
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  . {
   }
 }
 
@@ -397,6 +411,6 @@ a {
 }
 
 @media (min-width: 900px) {
-  .sandra-pic {
+  .button-links {
   }
 }
