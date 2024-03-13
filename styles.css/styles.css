@@ -262,7 +262,7 @@ a {
 .certification-div h4 {
   font-family: chakra petch;
   font-size: 45px;
-  color: white;
+  color: var(--primary-color);
 }
 .btn {
   font-size: 12px;
