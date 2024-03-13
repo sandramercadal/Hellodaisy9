@@ -137,7 +137,6 @@ mark {
   display: flex;
   margin-top: 40px;
   justify-content: center;
-  margin-bottom: 50px;
   font-family: chakra petch;
   font-size: 20px;
 }
@@ -356,14 +355,20 @@ a {
 
 @media (max-width: 900px) {
   .portfoliointro {
-    font-size: 21px;
+    font-size: 18px;
     line-height: 1.5;
-    text-align: center;
   }
 }
 
 @media (max-width: 900px) {
-  . {
+  .about-name {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-title {
+    font-size: 18px;
   }
 }
 
@@ -378,6 +383,14 @@ a {
   .about-section-content h5 {
     font-size: 16px;
     line-height: 1.5;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-section-content {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
   }
 }
 
@@ -407,10 +420,5 @@ a {
 @media (min-width: 900px) {
   .img-md {
     object-fit: contain;
-  }
-}
-
-@media (min-width: 900px) {
-  .button-links {
   }
 }
