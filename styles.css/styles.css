@@ -89,6 +89,10 @@ mark {
   max-height: 57px;
 }
 
+.navbar a:hover {
+  color: var(--secondary-color);
+}
+
 .hero-homepage-container {
   background: var(--secondary-color);
   text-align: center;
@@ -126,9 +130,8 @@ mark {
   border: 2px solid white;
   background: var(--primary-color);
   font-family: poppins;
-  margin: 5px;
   border-radius: 4px;
-  padding: 10px 7.5px;
+  padding: 10px 2px;
   text-decoration: none;
   color: black;
 }
@@ -419,5 +422,22 @@ a {
   }
   .about-section {
     padding: 0;
+  }
+  .footerwords {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: px) {
+  .portfoliointro {
+    font-size: 39px;
+    line-height: 1.5;
+  }
+  .about-name {
+    font-size: 50px;
+  }
+
+  .about-title {
+    font-size: 30px;
   }
 }
