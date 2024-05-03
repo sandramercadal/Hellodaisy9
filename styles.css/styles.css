@@ -40,7 +40,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   font-size: 20px;
   text-align: center;
 }
@@ -100,7 +99,7 @@ mark {
 }
 
 .hero-homepage-container {
-  background: var(--secondary-color);
+  background: #3d899c;
   text-align: center;
   padding: 130px 50px;
   min-height: calc(100vh - 103.5px);
@@ -190,7 +189,7 @@ mark {
   color: black;
 }
 .footer-links a:hover {
-  color: lightseagreen;
+  color: #f15d22;
 }
 .footer-links a {
   color: black;
