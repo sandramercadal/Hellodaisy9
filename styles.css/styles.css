@@ -82,6 +82,10 @@ mark {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.logo {
+  max-width: 100px;
+}
+
 .navbar-colour {
   background: var(--primary-color);
 }
@@ -92,7 +96,7 @@ mark {
 }
 
 .navbar a:hover {
-  color: var(--secondary-color);
+  color: #f15d22;
 }
 
 .hero-homepage-container {
