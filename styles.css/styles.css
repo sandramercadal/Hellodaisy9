@@ -86,6 +86,9 @@ mark {
   max-width: 100px;
 }
 
+.starlogo {
+  max-width: 50px;
+}
 .navbar-colour {
   background: var(--primary-color);
 }
@@ -231,7 +234,7 @@ mark {
 }
 
 .place {
-  color: var(--secondary-color);
+  color: var(--accent2-color);
   font-family: handlee;
   font-size: 19px;
   line-height: 7%;
