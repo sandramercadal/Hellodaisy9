@@ -1,6 +1,6 @@
 :root {
   --primary-color: #eae3e3;
-  --secondary-color: #3d899c;
+  --secondary-color: #00818a;
   --accent2-color: #f15d22;
   --accent-color: whitesmoke;
 }
@@ -102,7 +102,7 @@ mark {
 }
 
 .hero-homepage-container {
-  background: #3d899c;
+  background: var(--secondary-color);
   text-align: center;
   padding: 130px 50px;
   min-height: calc(100vh - 103.5px);
