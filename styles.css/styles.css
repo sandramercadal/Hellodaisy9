@@ -438,7 +438,6 @@ a {
     line-height: 1.2;
   }
   .img-md {
-    object-fit: contain;
   }
   .about-section .portfoliointro {
     font-size: 20px;
