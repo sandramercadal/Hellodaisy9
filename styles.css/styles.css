@@ -326,6 +326,10 @@ a {
   font-size: 15px;
 }
 
+.CFG {
+  height: ;
+}
+
 @media (max-width: 900px) {
   .typewriter h4 {
     font-size: 30px;
