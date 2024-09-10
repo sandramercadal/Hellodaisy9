@@ -340,6 +340,7 @@ a {
   filter: blur(8px);
   opacity: 0.4;
 }
+
 @media (max-width: 900px) {
   .typewriter h4 {
     font-size: 30px;
