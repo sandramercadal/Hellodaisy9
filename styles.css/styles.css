@@ -69,6 +69,8 @@ h5 {
 }
 p2 {
   font-family: poppins;
+  font-size: 13px;
+  line-height: 0px;
 }
 
 mark {
@@ -330,6 +332,14 @@ a {
   height: ;
 }
 
+.clock {
+  filter: blur(8px);
+  opacity: 0.4;
+}
+.joke {
+  filter: blur(8px);
+  opacity: 0.4;
+}
 @media (max-width: 900px) {
   .typewriter h4 {
     font-size: 30px;
