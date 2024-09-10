@@ -128,14 +128,6 @@ mark {
   object-fit: cover;
 }
 
-.img-container {
-  background: var(--primary-color);
-  border-radius: 8px;
-  padding: 5px 10px;
-  border: solid;
-  color: white;
-}
-
 .applaunch-link {
   border: 2px solid white;
   background: var(--primary-color);
