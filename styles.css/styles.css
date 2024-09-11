@@ -337,6 +337,14 @@ a {
   opacity: 0.4;
 }
 
+.row {
+  padding: 50px;
+}
+.fun-title {
+  font-size: 19px;
+  font-family: chakra petch;
+}
+
 @media (max-width: 900px) {
   .typewriter h4 {
     font-size: 30px;
@@ -457,5 +465,12 @@ a {
   }
   .button-links a {
     padding: 8px 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
   }
 }
