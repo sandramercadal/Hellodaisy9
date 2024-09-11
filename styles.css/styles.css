@@ -67,10 +67,10 @@ h5 {
   font-size: 37px;
   font-family: chakra petch;
 }
-p2 {
+p {
   font-family: poppins;
-  font-size: 13px;
-  line-height: 0px;
+  font-size: 14px;
+  text-align: left;
 }
 
 mark {
@@ -320,6 +320,10 @@ a {
   font-size: 15px;
 }
 
+.lets-connect p {
+  text-align: center;
+  font-size: 26px;
+}
 .CFG {
   height: ;
 }
