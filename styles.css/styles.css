@@ -202,6 +202,20 @@ mark {
 .about-section {
   padding: 3px 100px;
 }
+
+.fun-title {
+  font-size: 20px;
+  font-family: chakra petch;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+  height: 170px;
+}
+.my-bio {
+  padding: 20px;
+}
 .about-section-content {
   margin: ;
   font-family: poppins;
@@ -242,14 +256,6 @@ mark {
   font-size: 19px;
   text-align: left;
   line-height: 7%;
-}
-
-.sandra-pic {
-  border: 7px double var(--secondary-color);
-  border-radius: 30px 0px 30px 0px;
-  width: 210px;
-  margin: 5% 0;
-  padding: 5%;
 }
 
 .about-name {
@@ -324,9 +330,6 @@ a {
   text-align: center;
   font-size: 26px;
 }
-.CFG {
-  height: ;
-}
 
 .clock {
   filter: blur(8px);
@@ -335,14 +338,6 @@ a {
 .joke {
   filter: blur(8px);
   opacity: 0.4;
-}
-
-.row {
-  padding: 50px;
-}
-.fun-title {
-  font-size: 19px;
-  font-family: chakra petch;
 }
 
 @media (max-width: 900px) {
