@@ -211,8 +211,16 @@ mark {
 .avatar {
   display: block;
   margin: 0 auto;
-  height: 170px;
+  height: 180px;
+  transition: 3500ms;
+  padding-top: 17px;
+  border-radius: 50%;
 }
+
+.avatar:hover {
+  transform: rotate(360deg);
+}
+
 .my-bio {
   padding: 20px;
 }
