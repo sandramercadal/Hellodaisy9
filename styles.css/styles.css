@@ -219,7 +219,6 @@ mark {
 
 .avatar:hover {
   transform: rotate(360deg);
-  border: 3px solid var(--secondary-color);
 }
 
 .my-bio {
