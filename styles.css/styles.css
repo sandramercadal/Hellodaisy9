@@ -344,6 +344,16 @@ a {
   opacity: 0.4;
 }
 
+.small-images img {
+  width: 45px;
+}
+.card {
+  border: solid 4px whitesmoke;
+}
+.card-img-top {
+  height: 140px;
+}
+
 @media (max-width: 900px) {
   .typewriter h4 {
     font-size: 30px;
