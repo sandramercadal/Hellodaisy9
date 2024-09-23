@@ -45,6 +45,12 @@
   text-align: center;
 }
 
+.intro h1 {
+  font-size: 34px;
+  font-family: "Courgette", cursive;
+  color: #f15d22;
+}
+
 h2 {
   text-align: center;
   font-size: 16px;
@@ -211,7 +217,7 @@ mark {
 .avatar {
   display: block;
   margin: 0 auto;
-  height: 180px;
+  height: 230px;
   transition: 3500ms;
   padding-top: 17px;
   border-radius: 50%;
