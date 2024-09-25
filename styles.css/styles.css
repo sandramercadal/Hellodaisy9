@@ -355,14 +355,28 @@ a {
 }
 .card {
   border: solid 4px whitesmoke;
+}
 
 .card-img-top {
   height: 140px;
 }
 
+.small-images .toolicon {
+  width: 33px;
+}
+.small-images .toolicon2 {
+  width: 53px;
+}
+.small-images .bootstrap {
+  width: 56px;
+}
 @media (max-width: 900px) {
   .typewriter h4 {
     font-size: 30px;
+  }
+  .intro h1 {
+    font-size: 22px;
+    text-align: center;
   }
 
   h1 {
@@ -398,6 +412,11 @@ a {
 
   .main {
     text-align: center;
+  }
+  .avatar {
+    display: block;
+    margin: 0 auto;
+    height: 160px;
   }
 
   .portfoliointro {
@@ -480,6 +499,10 @@ a {
   }
   .button-links a {
     padding: 8px 8px;
+  }
+
+  .card-title {
+    font-size: 19px;
   }
 }
 
