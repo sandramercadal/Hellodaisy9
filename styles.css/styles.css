@@ -370,6 +370,9 @@ a {
 .small-images .bootstrap {
   width: 56px;
 }
+.small-images .flexbox {
+  width: 40px;
+}
 @media (max-width: 900px) {
   .typewriter h4 {
     font-size: 30px;
